@@ -10,4 +10,4 @@
   </ul>
 </p>
 <br>
-<p>See the site live:  <a href=" mckenkoe.github.com/AshV-portfolio"></a> mckenkoe.github.com/AshV-portfolio</p>
+See the site live: https://mckenkoe.github.io/AshV-portfolio/
