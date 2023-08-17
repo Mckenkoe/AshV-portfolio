@@ -1,0 +1,179 @@
+body {
+    min-height: 100%;
+    background-color: #ffe2f3;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0%;
+    display: inline;
+    color: #ff8cce;
+    font-size: 200px;
+}
+
+h2 {
+    font-size: 25px;
+    text-align: center;
+    text-decoration: underline;
+    color: #ff8cce;
+    margin: 25px auto 50px auto;
+}
+
+h3 {
+    margin: 0;
+    padding-left: 100px;
+    color: #ff8cce;
+    font-size: 35px;
+}
+
+a {
+    color: #ff8cce;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f948ac;
+}
+
+input {
+    width: 200px;
+    height: 20px
+}
+
+form{
+    margin: 50px;
+}
+
+.about {
+    width: 25vw;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.about-container {
+    text-align: center;
+    margin-top: 6vh;
+}
+
+.about-container>p {
+    margin: 2vh 250px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: white;
+    border-color: #ff8cce;
+    border-radius: 20px;
+    border-width: thick;
+    border-style: solid;
+    text-align: justify;
+}
+
+.about-container>a {
+    font-size: 20px;
+}
+
+.credits{
+    font-size: 8px;
+}
+
+.contact {
+    text-align: center;
+    color: #ff8cce;
+}
+
+.contact > h1{
+    font-size: 100px;
+}
+
+.hi {
+    width: 8%;
+}
+
+.portfolioContent{
+    margin: 12px;
+    border-color: white;
+    border-width:8px;
+    border-style: solid;
+}
+
+.portfolio-title {
+    font-size: 100px;
+    text-align: center;
+    display: block;
+}
+
+.ppp {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hhh {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.top {
+    /* position: relative; */
+    margin: 0;
+    margin-top: 50vh;
+    padding-left: 15px;
+}
+
+.btn-pink {
+    background-color: #ff8cce;
+    color: #f948ac;
+    width: 150px;
+    height: 50px;
+    box-shadow: none;
+    border-color: #f948ac;
+    border-radius: 10px;
+}
+
+.menu {
+    background-color: #ff8cce;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-item {
+    /* display: inline; */
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+.menu-item:hover{
+    color: white;
+}
+
+/* FOR SMALL DEVICES */
+@media only screen and (max-width: 600px) {
+
+    h1 {
+        margin: 0%;
+        display: inline;
+        color: #ff8cce;
+        font-size: 80px;
+    }
+
+    h3 {
+        margin: 0;
+        padding-left: 50px;
+        color: #ff8cce;
+        font-size: 25px;
+    }
+
+    .about {
+        width: 50vw;
+    }
+
+    .about-container>p {
+        margin: 5vh 75px;
+        font-size: 16px;
+    }
+
+    .hi {
+        width: 15%;
+    }
+}
