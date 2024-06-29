@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body {
     min-height: 100%;
     background-color: #ffe2f3;
@@ -82,6 +86,17 @@ form{
     border-radius: 10px;
 }
 
+.card-img-top{
+    height: 300px;
+    width: 300px;;
+    object-fit: cover;
+}
+
+.card-img-top:hover{
+    height: 100%;
+    width: 100%;
+}
+
 .credits{
     font-size: 8px;
 }
@@ -104,6 +119,7 @@ form{
     border-color: white;
     border-width:8px;
     border-style: solid;
+
 }
 
 .portfolio-title {
@@ -136,11 +152,17 @@ form{
     color: white;
 }
 
+/* .painting, .design, .misc img{
+    object-fit: cover;
+} */
+
 .top {
     margin: 0;
     margin-top: 50vh;
     padding-left: 15px;
 }
+
+
 
 /* FOR SMALL DEVICES */
 @media only screen and (max-width: 600px) {
